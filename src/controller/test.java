@@ -11,7 +11,7 @@ public class test {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		company com=new company();
-		com.setName("danone");
+		com.setName("eti");
 		
 		SessionFactory sessionFactory=new Configuration().configure().buildSessionFactory();
 		Session session=sessionFactory.openSession();
