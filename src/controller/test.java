@@ -12,7 +12,7 @@ public class test {
 		// TODO Auto-generated method stub
 		company com=new company();
 		com.setName("danone");
-		
+		System.out.println();
 		SessionFactory sessionFactory=new Configuration().configure().buildSessionFactory();
 		Session session=sessionFactory.openSession();
 		session.beginTransaction();
